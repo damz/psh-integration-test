@@ -44,3 +44,16 @@ crons:
     drupal:
         spec: "*/20 * * * *"
         cmd: "cd public ; drush core-cron"
+
+runtime:
+    extensions:
+        - apc
+        - name: blackfire
+          configuration:
+            server_id: "672b968a-03df-4131-97eb-da9bfc48415a" 
+            server_token: "5019010dd2e08827e1793d3f1b8943726d7df79530bff4f6011148805fcf83ea"
+        - imagick
+        - ssh2
+        - xmlrpc
+        - xsl
+        - ldap
