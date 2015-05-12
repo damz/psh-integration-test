@@ -14,3 +14,4 @@ projects[platform][version] = 1.3
 
 projects[] = ctools
 projects[] = views
+projects[] = panels
