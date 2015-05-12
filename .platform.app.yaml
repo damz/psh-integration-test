@@ -50,8 +50,8 @@ runtime:
         - apc
         - name: blackfire
           configuration:
-            server_id: "672b968a-03df-4131-97eb-da9bfc48415a" 
-            server_token: "5019010dd2e08827e1793d3f1b8943726d7df79530bff4f6011148805fcf83ea"
+            server_id: "cc91ba2e-5c4d-4883-9665-48f00b5e6457"
+            server_token: "e7fbfa2cc6aebeaf3af73cba96248502da3a0225befaef324c777eb874f508cb"
         - imagick
         - ssh2
         - xmlrpc
